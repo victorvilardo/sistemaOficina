@@ -22,7 +22,7 @@ public class OrdemServico {
 
     private double precoTotal;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "mecanico_id")
     private Mecanico mecanico;
 
